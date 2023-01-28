@@ -1,38 +1,69 @@
 .App {
   text-align: center;
+  background-color: rgb(236, 227, 227);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-del{
+  text-decoration: line-through;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header {
+  background-color: rgb(210, 205, 241);
+  height: 200px;
+  width: 80%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  vertical-align: middle;
+  line-height: 200px;
+}
+#navtitle {
+  margin: auto;
+  text-decoration: dashed;
+  font-size: 75px;
+  font-weight: 600;
+}
+#input {
+  width: 80%;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.inputbtn {
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.section {
+  width: 80%;
+  margin: auto;
+}
+.list {
+  background-color: rgb(216, 210, 210);
+  border-radius: 18px;
+  width: 78%;
+  margin: auto;
+  text-align: left;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.list:hover{
+  background-color: rgb(222, 225, 226);
+}
+.p {
+  margin-left: 5px;
+  margin-top: 1px;
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.trash {
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check{
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5%;
 }
